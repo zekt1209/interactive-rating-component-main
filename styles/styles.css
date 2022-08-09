@@ -117,3 +117,47 @@ border-radius: 20px;
 }
 
 
+/* Desktop thank you state */
+
+.illustrationThankYouContainer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 25px;
+}
+
+.ratingContainer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+.ratingBox {
+    /* width: 160px; */
+    /* height: 45px; */
+
+    background-color: var(--btnBackgroundColor);
+    border-radius: 50px;
+
+    padding: 8px 25px;
+}
+
+.ratingBox p {
+    margin: 0;
+
+    color: var(--Orange);
+}
+
+
+.thanksMessageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.thanksMessageContainer p{
+    margin-top: 0;
+}
